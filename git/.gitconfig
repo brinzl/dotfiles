@@ -1,0 +1,8 @@
+[user]
+  # Default identity (personal)
+  name = brinzl
+  email = <personal-email>
+
+# Work identity override for ~/Projects/work/** directories
+[includeIf "gitdir:~/Projects/work/**"]
+  path = ~/.config/git/.gitconfig-work
